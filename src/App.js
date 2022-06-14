@@ -16,7 +16,8 @@ const App = () => {
       {/* <FnComponent_1 />
       <FnComponent_2 /> */}
 
-      <ClassComponent />
+      {/* <ClassComponent /> */}
+      {/* 2일차 */}
     </>
   );
 };
