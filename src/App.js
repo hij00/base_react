@@ -1,9 +1,22 @@
+import TagRule from "./components/1_JsxRule/TagRule";
+import ClassComponent from "./components/2_component/ClassComponent";
+// import FnComponent from "./components/2_component/FnComponent";
+import {
+  FnComponent_1,
+  FnComponent_2,
+} from "./components/2_component/FnComponent";
+
 const App = () => {
   return (
     <>
-      <h1>h tag</h1>
-      <h2>h tag</h2>
-      {/* <img></img> */}
+      {/* <TagRule /> */}
+      {/* 1일차 */}
+
+      {/* <FnComponent /> */}
+      {/* <FnComponent_1 />
+      <FnComponent_2 /> */}
+
+      <ClassComponent />
     </>
   );
 };
