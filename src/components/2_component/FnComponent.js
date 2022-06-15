@@ -15,4 +15,5 @@ export const FnComponent_2 = () => {
 };
 
 // 함수를 하나만 내보낼땐 default
-// 두개 이상일땐 함수 앞에 export 붙이고 import{함수명} (호출할때 return안에 적어주면 자동 호출)
+// 두개 이상일땐 함수 앞에 export 붙이면 내보내짐,
+// 불러올땐 import{함수명} (호출할때 return안에 적어주면 자동 호출)

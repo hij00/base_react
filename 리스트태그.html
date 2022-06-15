@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리스트태그</title>
+</head>
+<body>
+    
+    <ul>
+        <li type="disc">순서가 없는 태그</li>
+        <li type="circle">순서가 없는 태그</li>
+        <li type="square">순서가 없는 태그</li>
+        <li type="none">순서가 없는 태그</li>
+    </ul>
+
+    <ul type="square">
+        <li>순서가 없는 태그</li>
+        <li type="disc">순서가 없는 태그</li>
+        <li>순서가 없는 태그</li>
+        <li>순서가 없는 태그</li>
+        <li>순서가 없는 태그</li>
+        <li>순서가 없는 태그</li>
+        <li>순서가 없는 태그</li>
+    </ul>
+
+    <!--
+    *특정 태그를 감싸고 있는 태그를 "부모태그"라고 함
+    *부모태그 안쪽에 있는 태그를 "자식태그"라고 함
+    *부모태그에 속성을 넣게되면 자식은 부모태그 속성을 상속받음 = 부모태그의 상속성 
+    <ul> 안에 입력하면 전체 다 적용됨 ul 띄워쓰기 속성
+        이 중 다른걸 변경하고 싶으면 <li>안에 따로 입력-->
+
+    <ol>
+        <li type="1">순서가 있는 태그</li>
+        <li type="a">순서가 있는 태그</li>
+        <li type="A">순서가 있는 태그</li>
+        <li type="i">순서가 있는 태그</li>
+        <li type="I">순서가 있는 태그</li>
+    </ol>
+
+    <!-- 
+    *순서가 없는 목록 -> <ul><li></li></ul>=> 두 태그가 한 세트
+    속성 : type="속성값"
+    =>disc : 속이 채워진 원형 기호
+        circle : 속이 빈 원형 기호
+        square : 사각형 기호
+        none : 기호가 없음 -> 중요!(아무것도 없는 걸 none이라고 함)
+
+    *순서가 있는 목록 -><ol><li></li></ol>=>두 태그가 한 세트
+    속성 : type="속성값"
+    => 1 : 숫자로 표시
+        a : 알파벳 소문자로 표시
+        A : 알파벳 대문자로 표시
+        i : 로마 소문자로 표시
+        I : 로마 대문자로 표시
+
+    2번이라고 속성값에 2 입력하는게 아니라 1을 입력해야함(나머지 다 동일) -->
+</body>
+</html>

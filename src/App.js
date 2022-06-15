@@ -5,34 +5,33 @@ import {
   FnComponent_1,
   FnComponent_2,
 } from "./components/2_component/FnComponent";
-import { FoodMenu } from "./components/2_component/FoodMenu";
+import { MenuEx } from "./components/3_props/MenuEx";
+import { Menus } from "./components/3_props/Menus";
+import { Subject } from "./components/3_props/Subject";
+import { menuDb, subjectDb } from "./db";
+
+// 컨트롤 누르고 클릭하면 파일열림, 옆의 탐색기에서 찾지않아도 됨
 
 const App = () => {
   return (
     <>
       {/* <TagRule /> */}
-      {/* ==========1일차========== */}
+      {/* 1일차==================== */}
 
       {/* <FnComponent /> */}
+
       {/* <FnComponent_1 />
       <FnComponent_2 /> */}
 
       {/* <ClassComponent /> */}
-      {/* =======2일차========== */}
+      {/* 2일차======================= */}
 
-      {/* // props
-      // 매개변수와 비슷
-      // <component 프롭스명="값"/> 
-      오브젝트 형태로 전달됨(중괄호까지)=> 매개변수를 쓸때는 중괄호를 빼야함
-      */}
-      <h3>아침</h3>
-      <FoodMenu menuName="계란밥" subMenu="된장국" />
+      {/* <Menus /> */}
+      <MenuEx menu={menuDb} />
 
-      <h3>점심</h3>
-      <FoodMenu menuName="우동" subMenu="김치" />
-
-      <h3>저녁</h3>
-      <FoodMenu menuName="김치볶음밥" subMenu="계란국" />
+      {/* <Subject sub={subjectDb} /> */}
+      {/* jsx에서 변수를 전달할땐 중괄호 안쪽으로(subjectDb는 중괄호) */}
+      {/* 3일차======================= */}
     </>
   );
 };
