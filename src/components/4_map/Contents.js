@@ -1,17 +1,20 @@
 import styled from "styled-components";
+import { mainStyle } from "../../styles/GlobalStyled";
 
 const Box = styled.div`
   width: 300px;
   height: 300px;
   background-color: ${(props) => props.bgColor};
   border: 3px solid ${(props) => props.bgColor};
+  font-size: ${mainStyle.fontSize};
+  /* 스타일 컴포넌트 다이렉트로 적용하는 방법 */
 `;
 
 export const Contents = () => {
-  const mainColor = "#3AB0FF";
   return (
     <>
-      <Box bgColor={mainColor}></Box>
+      <Box bgColor={mainStyle.color}>Styled Components</Box>
+      {/* 스타일 컴포넌트 사용할때 프롭스로 전달하는 방법 */}
     </>
   );
 };
@@ -39,3 +42,7 @@ export const Contents = () => {
 
 // 스타일 자동완성 확장프로그램 vscode-styled-components
 // 확장프로그램 쓸땐 styled로 호출(Components nono)
+
+// 색 스타일 변수는 글로벌로 따로빼기 => styles 폴더의 글로벌스타일 파일
+
+// 프롭스(이름지정)로 전달( props={} ) / 다이렉트로 적용( ${} )
