@@ -34,6 +34,7 @@ export const MapEx = ({ text }) => {
       </div>
 
       {/* content wrap이 3개로 나옴 */}
+      {/* 스타일 - css파일 / 인라인(태그 안에 작성) / 프레임워크 */}
     </>
   );
 };
