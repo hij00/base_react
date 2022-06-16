@@ -12,7 +12,8 @@ import { Contents } from "./components/4_map/Contents";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { MapEx } from "./components/4_map/MapEx";
 import { MapEx_2 } from "./components/4_map/MapEx_2";
-import { menuDb, subjectDb, textDb } from "./db";
+import { Works } from "./components/4_map/Works";
+import { menuDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
 // 컨트롤 누르고 클릭하면 파일열림, 옆의 탐색기에서 찾지않아도 됨
@@ -42,7 +43,8 @@ const App = () => {
       {/* <FoodMenu menus={menuDb} /> */}
       {/* <MapEx text={textDb} /> */}
       {/* <MapEx_2 kakaoData={textDb} /> */}
-      <Contents />
+      {/* <Contents /> */}
+      <Works workText={workDb} />
 
       {/* 4일차=============================== */}
     </>

@@ -6,6 +6,13 @@ export const mainStyle = {
   fontSize: "26px",
 };
 
+export const conWrapS = {
+  backgroundColor: "gray",
+};
+export const hStyle = {
+  fontSize: "26px",
+};
+
 export const GlobalStyled = createGlobalStyle`
 ${reset}
 *{
