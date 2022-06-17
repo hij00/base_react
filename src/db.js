@@ -100,3 +100,13 @@ export const workDb = [
       "https://images.velog.io/images/hanblueblue/post/3a0b0464-a4f4-44b9-820a-d14e47f98eec/js.png",
   },
 ];
+
+export const songDb = [
+  {
+    id: 0,
+    imgUrl:
+      "https://i.pinimg.com/originals/d0/dc/a8/d0dca8f61041553ad500ede203928392.jpg",
+    songName: "Blue bird",
+    person: "Evy Janes",
+  },
+];

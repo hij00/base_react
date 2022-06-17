@@ -14,7 +14,8 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { MapEx } from "./components/4_map/MapEx";
 import { MapEx_2 } from "./components/4_map/MapEx_2";
 import { Icons } from "./components/5_Music/Icons";
-import { menuDb, subjectDb, textDb, workDb } from "./db";
+import { MusicApp } from "./components/5_Music/MusicApp";
+import { menuDb, songDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
 // 컨트롤 누르고 클릭하면 파일열림, 옆의 탐색기에서 찾지않아도 됨
@@ -48,7 +49,8 @@ const App = () => {
       {/* <ConEx ConDb={workDb} /> */}
       {/* 4일차=============================== */}
 
-      <Icons />
+      {/* <Icons /> */}
+      <MusicApp musicData={songDb} />
       {/* 5일차================================= */}
     </>
   );
