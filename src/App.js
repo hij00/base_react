@@ -8,11 +8,12 @@ import {
 import { MenuEx } from "./components/3_props/MenuEx";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
+import { ConEx } from "./components/4_map/ConEx";
 import { Contents } from "./components/4_map/Contents";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { MapEx } from "./components/4_map/MapEx";
 import { MapEx_2 } from "./components/4_map/MapEx_2";
-import { Works } from "./components/4_map/Works";
+import { Icons } from "./components/5_Music/Icons";
 import { menuDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -44,9 +45,11 @@ const App = () => {
       {/* <MapEx text={textDb} /> */}
       {/* <MapEx_2 kakaoData={textDb} /> */}
       {/* <Contents /> */}
-      <Works workText={workDb} />
-
+      {/* <ConEx ConDb={workDb} /> */}
       {/* 4일차=============================== */}
+
+      <Icons />
+      {/* 5일차================================= */}
     </>
   );
 };
