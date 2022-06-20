@@ -21,7 +21,9 @@ ${reset}
 a{
   text-decoration: none;
 }
-
+body{
+  background-color: #555;
+}
 `;
 
 // npm 홈페이지에서 styled-reset 검색, eric meyer 가 만든거~~

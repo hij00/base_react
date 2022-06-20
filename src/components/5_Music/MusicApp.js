@@ -32,6 +32,7 @@ const ConWrap = styled.div`
   align-items: center;
 `;
 const HeadWrap = styled.div`
+  width: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -14,6 +14,7 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { MapEx } from "./components/4_map/MapEx";
 import { MapEx_2 } from "./components/4_map/MapEx_2";
 import { Icons } from "./components/5_Music/Icons";
+import { Music } from "./components/5_Music/Music";
 import { MusicApp } from "./components/5_Music/MusicApp";
 import { menuDb, songDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
@@ -50,7 +51,8 @@ const App = () => {
       {/* 4일차=============================== */}
 
       {/* <Icons /> */}
-      <MusicApp musicData={songDb} />
+      {/* <MusicApp musicData={songDb} /> */}
+      <Music />
       {/* 5일차================================= */}
     </>
   );

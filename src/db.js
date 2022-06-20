@@ -105,7 +105,7 @@ export const songDb = [
   {
     id: 0,
     imgUrl:
-      "https://i.pinimg.com/originals/d0/dc/a8/d0dca8f61041553ad500ede203928392.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIq22dzmgJMzXs5lBBQ_3zzLhW3C5Zx29CRpHtMoIjhDbeJgjzLMABl0cWCdq65dQ9tc&usqp=CAU",
     songName: "Blue bird",
     person: "Evy Janes",
   },
