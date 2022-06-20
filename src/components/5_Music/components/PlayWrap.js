@@ -8,11 +8,13 @@ const GageWrap = styled.div`
   width: 100%;
   height: 5px;
   background-color: gray;
+  border-radius: 50px;
 `;
 const Gage = styled.div`
   width: 10%;
   height: 100%;
   background-color: salmon;
+  border-radius: 50px;
 `;
 const TimeWrap = styled.div`
   width: 100%;

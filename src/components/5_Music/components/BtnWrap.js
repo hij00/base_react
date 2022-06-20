@@ -26,6 +26,11 @@ const Items = styled.div`
     justify-content: center;
     align-items: center;
   }
+  &:nth-child(3):hover {
+    background-color: white;
+    color: salmon;
+    transition: 0.5s;
+  }
 `;
 
 export const BtnWrap = () => {
