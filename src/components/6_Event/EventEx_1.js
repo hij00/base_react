@@ -1,37 +1,30 @@
 import { useState } from "react";
 import styled from "styled-components";
 
-const Wrap = styled.div`
-  height: 100vh;
-  background-color: #555;
-`;
 const Box = styled.div`
-  width: 400px;
-  height: 400px;
-  /* background-color: lightblue; */
+  width: 300px;
+  height: 300px;
   background-color: ${(props) => props.bgColor};
 `;
-// 스타일은 컴포넌트 => 프롭스를 받아올수있음 => 프롭스를 이용해 변경
-//
 
 export const EventEx_1 = () => {
-  // const [color, setColor] = useState("gold")
-  //   ========================
-  const [color, setColor] = useState("gold");
+  const [color, setColor] = useState("teal");
   const [bool, setBool] = useState(true);
-  const handleColor = () => {
-    if (bool === true) {
-      setColor("teal");
-      setBool(false);
-    } else if (bool === false) {
+  //   bool의 값이 true라고 알리고 시작?
+
+  const handleClick = () => {
+    // setColor("gold");
+
+    // 반복==============
+    if (bool) {
       setColor("gold");
+      setBool(false);
+    } else if (!bool) {
+      setColor("teal");
       setBool(true);
     }
   };
 
-  return (
-    <Wrap>
-      <Box bgColor={color} onClick={handleColor}></Box>
-    </Wrap>
-  );
+  //   return <Box bgColor={"gold"} onClick={handleClick}></Box>;
+  return <Box bgColor={color} onClick={handleClick}></Box>;
 };
