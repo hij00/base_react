@@ -26,7 +26,7 @@ const Section = styled.div`
 `;
 const CoverImg = styled.div`
   width: 90%;
-  height: 280px;
+  height: 250px;
   /* magin 0 auto를 쓰거나 섹션에 디스플레이 */
   border-radius: 25px;
   /* 똑같은 둥글기로 하고싶다면 글로벌스타일에 정의, 불러오기(props) */
