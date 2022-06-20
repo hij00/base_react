@@ -25,6 +25,7 @@ const Items = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   &:nth-child(3):hover {
     background-color: white;
