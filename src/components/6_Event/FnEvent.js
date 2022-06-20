@@ -12,6 +12,8 @@ export const FnEvent = () => {
   // const {속성, 속성} = 객체명
   // 객체의 내용을 쉽게 뽑아쓸수있음
 
+  //   ==============================
+
   //   const handlePlus = () => {
   //     setNum(num + 1);
   //   };
@@ -23,8 +25,9 @@ export const FnEvent = () => {
   // =====================
 
   //   const handlePlus = () => setNum(num + 1);
-
   //   const handleMinus = () => setNum(num - 1);
+
+  //   ==============================
 
   return (
     <div>

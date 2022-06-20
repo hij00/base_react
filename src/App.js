@@ -17,6 +17,7 @@ import { Icons } from "./components/5_Music/Icons";
 import { Music } from "./components/5_Music/Music";
 import { MusicApp } from "./components/5_Music/MusicApp";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { EventEx_1 } from "./components/6_Event/EventEx_1";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { menuDb, songDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
@@ -58,7 +59,8 @@ const App = () => {
       {/* 5일차================================= */}
 
       {/* <ClassEvent /> */}
-      <FnEvent />
+      {/* <FnEvent /> */}
+      <EventEx_1 />
     </>
   );
 };
