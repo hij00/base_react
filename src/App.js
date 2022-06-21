@@ -16,6 +16,7 @@ import { MapEx_2 } from "./components/4_map/MapEx_2";
 import { Icons } from "./components/5_Music/Icons";
 import { Music } from "./components/5_Music/Music";
 import { MusicApp } from "./components/5_Music/MusicApp";
+import { Animation } from "./components/6_Event/Animation";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { EventEx_1 } from "./components/6_Event/EventEx_1";
 import { EventEx_2 } from "./components/6_Event/EventEx_2";
@@ -62,7 +63,9 @@ const App = () => {
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
       {/* <EventEx_1 /> */}
-      <EventEx_2 />
+      {/* <EventEx_2 /> */}
+      <Animation />
+      {/* 6일차================================== */}
     </>
   );
 };
