@@ -20,6 +20,7 @@ ${reset}
 }
 a{
   text-decoration: none;
+  display: block;
 }
 body{
   /* background-color: #555; */

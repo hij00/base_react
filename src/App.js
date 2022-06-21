@@ -21,6 +21,8 @@ import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { EventEx_1 } from "./components/6_Event/EventEx_1";
 import { EventEx_2 } from "./components/6_Event/EventEx_2";
 import { FnEvent } from "./components/6_Event/FnEvent";
+import { BaseRouter } from "./components/7_router/BaseRouter";
+import { RouterEx } from "./components/7_router/RouterEx";
 import { menuDb, songDb, subjectDb, textDb, workDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -64,8 +66,11 @@ const App = () => {
       {/* <FnEvent /> */}
       {/* <EventEx_1 /> */}
       {/* <EventEx_2 /> */}
-      <Animation />
+      {/* <Animation /> */}
       {/* 6일차================================== */}
+
+      {/* <BaseRouter /> */}
+      <RouterEx />
     </>
   );
 };

@@ -22,3 +22,6 @@ const Box = styled.div`
 export const Animation = () => {
   return <Box>Animation</Box>;
 };
+
+// 애니메이션 이름을 적을때 ${}
+// keyframe은 스타일 컴포넌트로 불러와야함
