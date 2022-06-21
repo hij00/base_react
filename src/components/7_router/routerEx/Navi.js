@@ -69,7 +69,6 @@ const Tap = styled.div`
 export const Navi = () => {
   const [show, setShow] = useState("-400px");
   const [showw, setShoww] = useState("black");
-  const 
 
   const handleClick = () => {
     // setShow("flex");
@@ -89,11 +88,7 @@ export const Navi = () => {
           <Link to="/menu1">메뉴1</Link>
           <Link to="/menu2">메뉴2</Link>
         </MenuWrap> */}
-        <FontAwesomeIcon
-          icon={faBars}
-          font={showw}
-          onClick={(handleClick)}
-        />
+        <FontAwesomeIcon icon={faBars} font={showw} onClick={handleClick} />
       </HeaderWrap>
       <MenuWrap wrap={show}>
         <Menus>
