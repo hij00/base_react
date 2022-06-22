@@ -20,11 +20,13 @@ ${reset}
 }
 a{
   text-decoration: none;
-  display: block;
+  color: #1d1d1d;
 }
 body{
   /* background-color: #555; */
+  font-family: 'Noto Sans KR', sans-serif;
 }
+
 `;
 
 // npm 홈페이지에서 styled-reset 검색, eric meyer 가 만든거~~
