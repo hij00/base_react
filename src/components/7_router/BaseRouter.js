@@ -32,11 +32,11 @@ export const BaseRouter = () => {
 // react router dom 사이트의 패키지
 // react router dom npm 설치
 
-// as 이름변경(별칭) => BrowserRouter as Router 면
+// as 이름변경(별칭) => BrowserRouter as Router 면 Router로 변경됨
 
 // path="" 경로설정 (href="" 와 비슷)
 // 연결할 경로(컴포넌트 작성) => path 뒤에 element로 작성 ()
-// /만 단독으로 있으면 홈(메인)으로 감
+// /만 단독으로 있으면 홈(메인)으로 감(메뉴탭이 없다면 주소창에 입력을 해야 내용이 뜸)
 
 // header footer는 router와 routes 사이에 작성
 

@@ -78,6 +78,11 @@ export const Navi = () => {
     } else {
       setShow("-400px");
     }
+    if (showw === "black") {
+      setShoww("salmon");
+    } else {
+      setShoww("black");
+    }
   };
 
   return (
