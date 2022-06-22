@@ -44,7 +44,7 @@ export const Header = () => {
           <Link to="/sub1">메뉴1</Link>
         </Menu>
         <Menu>
-          <Link to="/sub1">메뉴2</Link>
+          <Link to="/sub2">메뉴2</Link>
         </Menu>
       </MenuWrap>
     </SHeader>
