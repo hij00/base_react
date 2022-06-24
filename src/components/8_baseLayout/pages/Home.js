@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { PageTitle } from "../components/PageTitle";
 
 const Banner = styled.div`
   height: 800px;
@@ -34,7 +35,7 @@ export const Home = () => {
   return (
     <div>
       <Banner></Banner>
-
+      <PageTitle text={"Home"} />
       <Section>
         <Content>
           <Link to="/sub1"></Link>

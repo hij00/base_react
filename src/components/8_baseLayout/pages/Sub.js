@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { PageTitle } from "../components/PageTitle";
 
 const Section = styled.div`
   padding: 200px 400px;
@@ -32,6 +33,7 @@ const Desc = styled.div`
 export const Sub = ({ cons }) => {
   return (
     <Section>
+      <PageTitle text={"Sub Page"} />
       <Bg></Bg>
       <TextWrap>
         <Title>{cons.title}</Title>
